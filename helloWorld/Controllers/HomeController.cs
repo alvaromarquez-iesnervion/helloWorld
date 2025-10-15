@@ -23,6 +23,15 @@ namespace helloWorld.Controllers
             return View();
         }
 
+        public string Alvaro()
+        {
+            return "Hello Alvaro!";
+        }
+
+        public IActionResult AlvaroList(){
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
